@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1017632972257-i7rhmv15i5p5j5315qtgn2o3nak2uhh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patrick.firenav",
+            "certificate_hash": "46ea5b61c818e5a93fed2990077704923772e579"
+          }
+        },
+        {
           "client_id": "1017632972257-inshjhtt7hahnq98q8g2ni26bn84kfi0.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017632972257-inshjhtt7hahnq98q8g2ni26bn84kfi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
