@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1017632972257",
+    "firebase_url": "https://firenav-5f306.firebaseio.com",
+    "project_id": "firenav-5f306",
+    "storage_bucket": "firenav-5f306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017632972257:android:fedd07ed9edb236a",
+        "android_client_info": {
+          "package_name": "com.example.patrick.firenav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017632972257-inshjhtt7hahnq98q8g2ni26bn84kfi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI1XOAwzdkJR3MS2lOb9YvO0pahq_x6qY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
