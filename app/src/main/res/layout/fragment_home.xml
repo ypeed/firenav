@@ -36,6 +36,7 @@
                 android:textSize="24sp"
                 android:layout_gravity="center"
                 android:text="user"
+                android:id="@+id/message1"
                 android:layout_margin="4dp"
                 android:textColor="@color/whiteText"/>
             <View
