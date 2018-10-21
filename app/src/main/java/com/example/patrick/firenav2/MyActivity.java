@@ -58,7 +58,23 @@ public class MyActivity extends AppCompatActivity {
         } else {
             //prebere inbox
             readFromSmsInbox();
+            final AlertDialog.Builder builder1 = new AlertDialog.Builder(MyActivity.this, R.style.Theme_AppCompat_Dialog);
+            builder1.setTitle("Prideš");
+            builder1.setMessage("")
+                    .setPositiveButton("DA", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.cancel();
+                        }
+                    });
 
+            builder1.setNegativeButton("NE", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // User cancelled the dialog
+                }
+            });
+
+            AlertDialog alert = builder1.create();
+            alert.show();
 
             //NAVIGATION
             BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);

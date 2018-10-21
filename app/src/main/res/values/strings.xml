@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="string_name">Firenav</string>
+    <string name="dialog_ok">DA</string>
+    <string name="dialog_cancel">NE</string>
 </resources>
